@@ -2168,35 +2168,3 @@ section,
   background-color: #2b514c;
 }
 
-/* slider  */
-.slider-wrapper {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.slider {
-  display: flex;
-  gap: 40px;
-  animation: scrollInfinite 25s linear infinite;
-}
-
-.slider img {
-  height: 100px;
-  width: auto;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-}
-
-.slider img:hover {
-  transform: scale(1.1);
-}
-
-@keyframes scrollInfinite {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
